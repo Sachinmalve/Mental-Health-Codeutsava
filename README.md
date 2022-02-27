@@ -13,9 +13,9 @@ To create an informative AI-based tool that should be able to give alerts and id
 - [@Kunal Dhurwey](https://github.com/kunaldhurwey04032001)
 - [@Anshuman Mohanty](https://github.com/Anshuman2305)
 - [@Aditya Nigam](https://github.com/nigam-aditya)
-- [@J Varun Iyer
-- [@Shruti Verma]
-- [@Sachin Malve]
+- [@J Varun Iyer](https://github.com/iyerjvarun)
+- [@Shruti Verma](https://github.com/superv13)
+- [@Sachin Malve](https://github.com/Sachinmalve)
 ## Tech Stack
 **ML Model :** Python, numpy, pandas, sklearn  
 **Front End :** HTML,CSS  
