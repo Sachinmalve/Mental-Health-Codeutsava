@@ -1,0 +1,20 @@
+body {
+  background-color: #e7e7e7 !important;
+  color: black !important;
+  font-family: monospacec !important;
+}
+
+.question_card {
+  background-color: #fff2d6;
+  border-radius: 10px;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

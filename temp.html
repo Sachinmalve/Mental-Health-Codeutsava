@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<style>
+form {
+    margin: auto;
+    width: 80%;
+}
+
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid rgb(240, 1, 1);
+}
+</style>
+
+<head>
+    <title>Depression Model</title>
+</head>
+<form action="{{ url_for('main') }}" method="POST">
+    <p class="questions" id="question1">
+        1-  I have little or no interest in doing things.</p>
+      <input type="radio" name="q1" value="0">I don't feel like this.<br>
+      <input type="radio" name="q1" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q1" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q1" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        2- I feel down and hopeless.</p>
+      <input type="radio" name="q2" value="0">I don't feel like this.<br>
+      <input type="radio" name="q2" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q2" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q2" value="3">I feel this almost every day.<br>
+      <hr>
+    
+    <p class="questions" id="question1">
+        3-  I either have trouble falling asleep or I end up sleeping too much.</p>
+      <input type="radio" name="q3" value="0">I don't feel like this.<br>
+      <input type="radio" name="q3" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q3" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q3" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        4- I am tired all the time.</p>
+      <input type="radio" name="q4" value="0">I don't feel like this.<br>
+      <input type="radio" name="q4" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q4" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q4" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        5- I have a poor appetite or I am eating too much these days.</p>
+      <input type="radio" name="q5" value="0">I don't feel like this.<br>
+      <input type="radio" name="q5" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q5" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q5" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        6- I feel like a failure and a burden. I have let everyone down.</p>
+      <input type="radio" name="q6" value="0">I don't feel like this.<br>
+      <input type="radio" name="q6" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q6" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q6" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        7- I can't concentrate on anything I pick up. I keep getting distracted by everything and nothing.</p>
+      <input type="radio" name="q7" value="0">I don't feel like this.<br>
+      <input type="radio" name="q7" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q7" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q7" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        8- Even moving from one place to another or talking to my friends and family feels like a chore. I have no energy for being social.</p>
+      <input type="radio" name="q8" value="0">I don't feel like this.<br>
+      <input type="radio" name="q8" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q8" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q8" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        9- I sometimes think that my dying would ease the burdens of everyone around me.</p>
+      <input type="radio" name="q9" value="0">I don't feel like this.<br>
+      <input type="radio" name="q9" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q9" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q9" value="3">I feel this almost every day.<br>
+      <hr>
+
+    <p class="questions" id="question1">
+        10- There's so much going on in my head that I keep messing up at work, home, school, or with other people.</p>
+      <input type="radio" name="q10" value="0">I don't feel like this.<br>
+      <input type="radio" name="q10" value="1">I feel like this on some days.<br>
+      <input type="radio" name="q10" value="2">I feel like this more than half the days of the week.<br>
+      <input type="radio" name="q10" value="3">I feel this almost every day.<br>
+      <hr>
+    
+    <input type="submit">
+</form>
+<br>
+<div class="result" align="center">
+    {% if result %}
+    	{% for variable, value in original_input.items() %}
+    		<b>{{ variable }}</b> : {{ value }}
+    	{% endfor %}
+		<br>
+    	<br> Predicted value:
+   		<p style="font-size:50px">{{ result }}</p>
+    {% endif %}
+</div>
+
+</html>
