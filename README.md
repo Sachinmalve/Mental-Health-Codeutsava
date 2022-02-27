@@ -20,3 +20,6 @@ To create an informative AI-based tool that should be able to give alerts and id
 **ML Model :** Python, numpy, pandas, sklearn  
 **Front End :** HTML,CSS  
 **Back End :** JavaScript,Flask ,Firebase
+
+
+![App Screenshot](screenshot/mainscreen1.jpeg)
