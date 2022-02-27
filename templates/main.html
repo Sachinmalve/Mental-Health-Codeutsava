@@ -43,7 +43,10 @@
       </div>
     </nav>
 
-    <div class="alert">Your data has been recorded</div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="alert">Your data has been recorded</div>
 
     <form id="contactForm">
       <p>
@@ -52,11 +55,11 @@
       </p>
       <p>
         <label>Email</label>
-        <input type="text" name="email" id="email" />
+        <input type="email" name="email" id="email" />
       </p>
       <p>
         <label>Age</label>
-        <input type="text" name="age" id="age" required />
+        <input type="number" name="age" id="age" required />
       </p>
       <p>
         <label>Country</label>
@@ -66,6 +69,10 @@
         <button type="submit">Submit</button>
       </p>
     </form>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    
 
     <div class="container-fluid">
       <form action="{{ url_for('main') }}" method="POST">
