@@ -20,9 +20,3 @@ To create an informative AI-based tool that should be able to give alerts and id
 **ML Model :** Python, numpy, pandas, sklearn  
 **Front End :** HTML,CSS  
 **Back End :** JavaScript,Flask ,Firebase
-
-## Screenshots
-
-![App Screenshot]("https://github.com/kunaldhurwey04032001/VinciCode_PS5/blob/master/screenshots/WhatsApp%20Image%202022-02-27%20at%201.37.01%20PM.jpeg")
-![App Screenshot]("https://github.com/kunaldhurwey04032001/VinciCode_PS5/blob/master/screenshots/WhatsApp%20Image%202022-02-27%20at%201.37.43%20PM.jpeghttps://github.com/kunaldhurwey04032001/VinciCode_PS5/blob/master/screenshots/WhatsApp%20Image%202022-02-27%20at%201.37.43%20PM.jpeg")
-![App Screenshot]("https://github.com/kunaldhurwey04032001/VinciCode_PS5/blob/master/screenshots/WhatsApp%20Image%202022-02-27%20at%201.38.47%20PM.jpeg")
