@@ -11,9 +11,9 @@ To create an informative AI-based tool that should be able to give alerts and id
 ## Authors
 
 - [@Kunal Dhurwey](https://github.com/kunaldhurwey04032001)
-- [@Anshuman Mohanty]
-- [@Aditya Nigam]
-- [@J Varun Iyer]
+- [@Anshuman Mohanty](https://github.com/Anshuman2305)
+- [@Aditya Nigam](https://github.com/nigam-aditya)
+- [@J Varun Iyer
 - [@Shruti Verma]
 - [@Sachin Malve]
 ## Tech Stack
