@@ -22,4 +22,4 @@ To create an informative AI-based tool that should be able to give alerts and id
 **Back End :** JavaScript,Flask ,Firebase
 
 
-![App Screenshot](screenshot/mainscreen1.jpeg)
+![App Screenshot](screenshots/mainscreen1.jpeg)
