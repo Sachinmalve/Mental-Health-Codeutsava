@@ -21,5 +21,8 @@ To create an informative AI-based tool that should be able to give alerts and id
 **Front End :** HTML,CSS  
 **Back End :** JavaScript,Flask ,Firebase
 
+## Screenshots
 
 ![App Screenshot](screenshots/mainscreen1.jpeg)
+![App Screenshot](screenshots/mainscreen2.jpeg)
+![App Screenshot](screenshots/firebase.jpeg)
